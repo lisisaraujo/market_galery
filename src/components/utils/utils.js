@@ -1,7 +1,3 @@
-export const Loading = ({ type, color, height, width }) => (
-  <ReactLoading type={type} color={color} height={height} width={height} />
-);
-
 export const random = (maxNumber) => {
   return Math.floor(Math.random() * maxNumber * 1);
 };

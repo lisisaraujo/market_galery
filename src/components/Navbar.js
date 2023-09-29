@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Navbar() {
   const navbarStyle = {
@@ -33,14 +34,14 @@ export default function Navbar() {
           }}
         >
           <li>
-            <a href="/" style={linkStyle}>
+            <Link href="/" style={linkStyle}>
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/favorites" style={linkStyle}>
+            <Link href="/favorites" style={linkStyle}>
               Favorites
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
