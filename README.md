@@ -1,4 +1,3 @@
-````markdown
 ## Project Overview
 
 This project is a simple homepage that displays pictures fetched from the Unsplash API. It includes features like infinite scrolling, favoriting pictures (stored in local storage), lazy-loading of images, and error handling for a seamless user experience.
@@ -64,6 +63,3 @@ Please note that if you choose to clone the repository, you'll need to have Git 
 - Click the favorite button to favorite a picture. Favorited pictures will appear on the favorites page and are stored in local storage.
 - On the favorites page, you can unfavorite pictures by clicking the remove favorite button.
 
-```
-
-```
